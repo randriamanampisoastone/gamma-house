@@ -1,11 +1,13 @@
+import { Toaster } from "react-hot-toast";
 import "./App.css";
 import Bouton from "./Bouton/Bouton";
 
 function App() {
   return (
     <>
-      <Bouton />
-      <Bouton />
+      <div>
+        <Toaster />
+      </div>
       <Bouton />
     </>
   );
